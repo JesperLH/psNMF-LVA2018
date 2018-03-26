@@ -10,7 +10,9 @@ The aim of NMF is to factorize a data matrix X into two latent matrices W and H,
 In addition, for 1) and 2) the scale of the distribution can be either,
 
 a) Fixed to a scalar value
+
 b) Enforce column-wise sparsity (i.e. automatic relevance determination)
+
 c) Enforce element-wise sparsity (i.e. discover an underlying sparse pattern)
 
 ## Getting started
