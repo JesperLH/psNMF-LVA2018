@@ -35,7 +35,7 @@ for di = 1:length(datasets)
         save_name = 'swimmer5dB';
     elseif strcmpi(datasets(di),'cbcl-faces')
 
-        X = corrected_cbcldata('../../Data/cbcl-face-database/faces/train/face/');
+        X = cbcldata_corrected('../../Data/cbcl-face-database/faces/train/face/');
         sx = 19;
         sy = 19;
 
