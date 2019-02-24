@@ -31,4 +31,4 @@ The Technical University of Denmark, Department for Applied Mathematics and Comp
 
 ## References
 
-[1] Hinrich, J. L., Mørup, M.: "Probabilistic Sparse Non-negative Matrix Factorization" (Under review)
+[1] Hinrich, J. L., & Mørup, M. (2018, July). Probabilistic sparse non-negative matrix factorization. In International Conference on Latent Variable Analysis and Signal Separation (pp. 488-498). Springer, Cham.
