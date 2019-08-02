@@ -209,7 +209,7 @@ while delta_cost>=conv_crit && iter<maxiter || ...
                 cost = cost+factors{f}.calcCost();
                 E_Lambda{f} = priors{f}.getExpFirstMoment();
                 
-                assert(all(all(E_Lambda{fsi} == E_Lambda{shared_idx(f)})), 'Error, shared prior is not shared');
+                assert(all(all(E_Lambda{fsi} == E_Lambda{f})), 'Error, shared prior is not shared');
             end
         end
     end
